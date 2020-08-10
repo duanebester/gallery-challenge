@@ -1,0 +1,22 @@
+.thumbnails {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.thumbnail {
+    min-width: 400px;
+    min-height: 300px;
+    max-width: 400px;
+    max-height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail img {
+    max-width:100%; 
+    height:auto;
+}

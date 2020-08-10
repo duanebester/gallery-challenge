@@ -1,0 +1,24 @@
+.preview-image {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-image img {
+    width: 800px;
+}
+
+.preview-image .preview-actions {
+    display: flex;
+}
+
+.preview-image .preview-actions button {
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
